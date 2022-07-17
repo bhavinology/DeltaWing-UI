@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@200;300;400&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --error-bg-color: #fad7d2;
+  --error-color: #e01006;
+  --hover-color-grey: #fffffa5d;
+  --info-bg-color: #afcdf5;
+  --info-color: #2236b5;
+  --light-color: white;
+  --primary-color: #6d28d9;
+  --secondary-color: #d92b6d;
+  --success-bg-color: #92fdbf;
+  --success-color: #157a00;
+  --warning-bg-color: #fcea88;
+  --warning-color: #836f00;
+  --default-color: #535353;
+  --disabled-color: #8b8b8b;
+  --primary-bg-color: #d1d8ff;
+  --primary-light-color: #c4b5fd;
+  --shadow-color: #b9b9b9;
+  --dark-color: #000000;
+  --display-box-border: #e6e6e6;
+  --star-rating: #ffcd3c;
+
+  --default-shadow: 0 0 0.625rem var(--shadow-color);
+  --right-shadow: 10px 0 10px -10px var(--shadow-color);
+}
+
+.flex-column-center {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-row-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.heading3 {
+  font-size: 1.5rem;
+}
+
+.heading4 {
+  font-size: 1.2rem;
+}
+
+.keyword {
+  color: var(--primary-color);
+}
+
+/* Scrollbar Customisation*/
+::-webkit-scrollbar {
+  height: 2px;
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 0.625rem;
+}
