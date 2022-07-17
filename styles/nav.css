@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@200;300;400&display=swap');
 
 .nav-container{
-  box-shadow: 0 0 0.625rem blueviolet;
+  box-shadow: 0 0 0.625rem var(--default-color);
   padding: 0.75rem;
   display: flex;
   justify-content: space-between;
