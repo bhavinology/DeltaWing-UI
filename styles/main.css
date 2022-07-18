@@ -109,3 +109,12 @@
 .zoom:hover {
   transform: scale(1.1);
 }
+
+@media screen and (max-width:640px) {
+
+  .hero-img,
+  .hero-content{
+    width: 100%;
+  }
+  
+}

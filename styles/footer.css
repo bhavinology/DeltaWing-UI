@@ -1,0 +1,29 @@
+.footer-container{
+  background-color: var(--default-color);
+  margin-top:1rem;
+  padding: 1rem;
+}
+
+.footer-header {
+  color: var(--light-color);
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.footer-item {
+  display: inline-block;
+}
+
+.footer-icon {
+  color:var(--light-color);
+  margin: 0.5rem;
+}
+
+.footer-icon:hover {
+  color: var(--primary-light-color);
+}
+
+.copyright{
+  color: var(--light-color);
+  font-size: 0.75rem;
+}
