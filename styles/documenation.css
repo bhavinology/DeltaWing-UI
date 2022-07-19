@@ -9,3 +9,40 @@
   min-height: 100vh;
 }
 
+.sidebar-and-content {
+  display: flex;
+  flex-grow: 1;
+}
+
+.sidebar {
+  box-shadow: var(--right-shadow);
+  height: calc(100vh - 2rem);
+  min-width: 14rem;
+  overflow-y: auto;
+  padding-top: 0.625rem;
+  position: sticky;
+}
+
+.sidebar > ul > li{
+  list-style: none;
+  padding: 0.75rem;
+  padding-left: 2rem;
+}
+
+.sidenav-list:hover {
+  background-color: var(--primary-bg-color);
+}
+
+.sidenav-item {
+  color: var(--dark-color);
+  display: block;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.sidebar-heading {
+  font-size: 1.2rem;
+  padding-left: 2rem;
+  padding: 0.75rem;
+}
+

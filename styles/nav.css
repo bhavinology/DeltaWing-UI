@@ -58,4 +58,10 @@
   /* padding-right: 1.2rem; */
 }
 
+.hamburger {
+  cursor: pointer;
+  display: none;
+  margin-right: 1rem;
+}
+
 
