@@ -46,3 +46,42 @@
   padding: 0.75rem;
 }
 
+.content-container {
+  height: calc(100vh - 5rem);
+  margin-top: 1rem;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.content {
+  padding-bottom:8px ;
+}
+
+.description {
+  font-size: 1rem;
+  margin: 1rem 1rem 0 2rem;
+}
+
+.code-snippet {
+  display: block;
+  font-size: 0.5rem;
+  font-style: initial;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  overflow-x: scroll;
+  padding: 0.5rem;
+}
+
+.heading3,
+.heading4 {
+  margin-left: 2rem;
+}
+
+.heading4 {
+  padding: 1rem 0rem 0.5rem 0rem;
+}
+
+.active {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-color);
+}
