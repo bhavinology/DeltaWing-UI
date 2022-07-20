@@ -85,3 +85,24 @@
   background-color: var(--primary-bg-color);
   color: var(--primary-color);
 }
+
+.display-component {
+  background-color: var(--hover-color-grey);
+  border:2px solid var(--display-box-border);
+  border-radius: 0.625rem;
+  height: min-content;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 640px) {
+  .nav-icon {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .sidebar {
+    display: none;
+  }
+}
