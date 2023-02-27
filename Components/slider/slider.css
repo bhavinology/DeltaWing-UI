@@ -1,0 +1,12 @@
+@import url("../../styles/globalVar.css");
+
+.default-slider {
+  align-items: center;
+  column-gap: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.default-slider > .fas {
+  color: var(--default-color);
+}

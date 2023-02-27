@@ -1,4 +1,4 @@
-@import url('../../styles/globalVar.css');
+@import url("../../styles/globalVar.css");
 
 .alert-container {
   flex-wrap: wrap;
@@ -68,4 +68,3 @@
   background-color: var(--hover-color-grey);
   border-radius: 50%;
 }
-

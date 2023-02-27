@@ -1,6 +1,6 @@
-.footer-container{
+.footer-container {
   background-color: var(--default-color);
-  margin-top:1rem;
+  margin-top: 1rem;
   padding: 1rem;
 }
 
@@ -8,6 +8,7 @@
   color: var(--light-color);
   font-size: 1.2rem;
   margin-top: 1rem;
+  letter-spacing: 1px;
 }
 
 .footer-item {
@@ -15,7 +16,7 @@
 }
 
 .footer-icon {
-  color:var(--light-color);
+  color: var(--light-color);
   margin: 0.5rem;
 }
 
@@ -23,7 +24,8 @@
   color: var(--primary-light-color);
 }
 
-.copyright{
+.copyright {
   color: var(--light-color);
   font-size: 0.75rem;
+  letter-spacing: 2px;
 }

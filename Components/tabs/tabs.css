@@ -1,0 +1,41 @@
+@import url("../../styles/globalVar.css");
+
+.tab-default,
+.tab-icon-left {
+  align-items: center;
+  cursor: pointer;
+  display: inline-flex;
+  padding: 0.625rem;
+}
+.tab-icon-top {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  padding: 0.625rem;
+  row-gap: 0.625rem;
+}
+
+.tab-container {
+  overflow-x: scroll;
+}
+
+.tab-link {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.tab-active {
+  align-self: center;
+  background-color: var(--primary-bg-color);
+  border-bottom: 1px solid var(--primary-color);
+}
+
+.tab-icon-left > .fa {
+  padding-right: 4px;
+}
+
+.tab-icon-left > i,
+.tab-icon-top > i {
+  color: var(--primary-color);
+}

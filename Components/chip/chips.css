@@ -1,0 +1,46 @@
+@import url("../../styles/globalVar.css");
+.chip-input {
+  border: none;
+  border-bottom: 1px solid var(--primary-color);
+  width: 80%;
+  height: 2rem;
+}
+
+.chip {
+  align-items: center;
+  background-color: var(--primary-bg-color);
+  border-radius: 2rem;
+  display: inline-flex;
+  height: 1rem;
+  justify-content: center;
+  margin: 0.5rem;
+  padding: 0.625rem;
+  width: max-content;
+}
+
+.chips-icon > .chip > .fas {
+  color: var(--primary-color);
+  padding-right: 0.625rem;
+}
+
+.fa-times-circle {
+  color: var(--default-color);
+  padding-left: 10px;
+  padding-right: 0px;
+}
+
+.fa-times-circle:hover {
+  cursor: pointer;
+}
+
+.chip-input:focus {
+  outline: none;
+}
+
+.chips-dynamic {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0.625rem;
+}

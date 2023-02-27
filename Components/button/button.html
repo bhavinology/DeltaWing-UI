@@ -10,7 +10,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="../../styles/documenation.css" />
-    <link rel="stylesheet" href="./alert.css" />
+    <link rel="stylesheet" href="./button.css" />
     <!-- added for favicon -->
     <link
       rel="apple-touch-icon"
@@ -190,134 +190,156 @@
             </li>
           </ul>
         </aside>
-
         <!-- HERO SECTION -->
-
         <main class="content-container">
           <div class="content">
-            <h3 class="heading3">Alerts</h3>
+            <h3 class="heading3">Buttons</h3>
             <p class="description">
-              An alert give a short, important message in a way that attracts
-              the user's attention without interrupting the user's task.
+              Buttons are useful in performing various actions on a single
+              click. Different variants of buttons are present in Muffin UI.
+              Take a look
             </p>
-            <h4 class="heading4">Default Alerts</h4>
+            <h4 class="heading4">Default Buttons</h4>
             <p class="description">
-              Default Alerts are available in 4 variants success alert, info
-              alert, warning alert, error alert. To use this alert in your code,
-              just include classname <span class="keyword">alert</span>. And
-              also as per the requirement you can also add
-              <span class="keyword">alert-success</span>,
-              <span class="keyword">alert-info</span>,
-              <span class="keyword">alert-warning</span>,
-              <span class="keyword">alert-error</span> as class names. You can
-              copy the html code from below code snippet.
+              The default buttons are available in different variants. The
+              <span class="keyword">btn</span> class needs to be added in button
+              tag. Along with that classes such as
+              <span class="keyword">btn-primary</span>,
+              <span class="keyword">btn-secondary</span>,
+              <span class="keyword">btn-default</span>,
+              <span class="keyword">btn-success</span>,
+              <span class="keyword">btn-error</span> and
+              <span class="keyword">btn-disable</span> can be added as per the
+              user's requirement
             </p>
           </div>
 
           <div class="display-component">
-            <div class="alert-container flex-column-center">
-              <div class="alert alert-success">
-                <i class="fas fa-check-circle"></i>
-                This is the success alert. Check this out!
-              </div>
-
-              <div class="alert alert-info">
-                <i class="fas fa-info-circle"></i>
-                This is the info alert. Check this out!
-              </div>
-
-              <div class="alert alert-warning">
-                <i class="fas fa-exclamation-triangle"></i>
-                This is the warning alert. Check this out!
-              </div>
-
-              <div class="alert alert-error">
-                <i class="fas fa-exclamation-circle"></i>
-                This is the error alert. Check this out!
-              </div>
+            <div class="button-container flex-row-center">
+              <button class="btn btn-primary">Primary</button>
+              <button class="btn btn-secondary">Secondary</button>
+              <button class="btn btn-default">Default</button>
+              <button class="btn btn-success">Success</button>
+              <button class="btn btn-error">Error</button>
+              <button class="btn btn-disable" disabled>Disabled</button>
             </div>
           </div>
 
           <div class="code-snippet">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fbhavinology%2Fcode-snippets%2Fblob%2Fmain%2Falert.html%23L1-L19&style=ir-black&showBorder=on&showCopy=on"></script>
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fromabulani%2FMuffinUI%2Fblob%2FEmbedBranch%2Fembed.html%23L147-L152&style=github-gist&showBorder=on&showCopy=on"></script>
           </div>
 
           <div class="content">
-            <h4 class="heading4">Filled Alerts</h4>
+            <h4 class="heading4">Outline Buttons</h4>
             <p class="description">
-              For Filled Alerts, just include classname
-              <span class="keyword">alert</span>. And also as per the
-              requirement you can also add
-              <span class="keyword">alert-success-filled</span>,
-              <span class="keyword">alert-info-filled</span>,
-              <span class="keyword">alert-warning-filled</span>,
-              <span class="keyword">alert-error-filled</span> as class names.
+              For outline buttons, the classes such as
+              <span class="keyword">btn-outline-primary</span>,
+              <span class="keyword">btn-outline-secondary</span>,
+              <span class="keyword">btn-outline-default</span>,
+              <span class="keyword">btn-outline-success</span>,
+              <span class="keyword">btn-outline-error</span> and
+              <span class="keyword">btn-outline-disable</span> can be added
             </p>
           </div>
 
           <div class="display-component">
-            <div class="alert-container flex-column-center">
-              <div class="alert alert-success-filled">
-                <i class="fas fa-check-circle"></i>
-                This is the success alert. Check this out!
-              </div>
-
-              <div class="alert alert-info-filled">
-                <i class="fas fa-info-circle"></i>
-                This is the info alert. Check this out!
-              </div>
-
-              <div class="alert alert-warning-filled">
-                <i class="fas fa-exclamation-triangle"></i>
-                This is the warning alert. Check this out!
-              </div>
-
-              <div class="alert alert-error-filled">
-                <i class="fas fa-exclamation-circle"></i>
-                This is the error alert. Check this out!
-              </div>
+            <div class="button-container flex-row-center">
+              <button class="btn btn-outline-primary">Primary</button>
+              <button class="btn btn-outline-secondary">Secondary</button>
+              <button class="btn btn-outline-default">Default</button>
+              <button class="btn btn-outline-success">Success</button>
+              <button class="btn btn-outline-error">Error</button>
+              <button class="btn btn-outline-disable" disabled>Disabled</button>
             </div>
           </div>
 
           <div class="code-snippet">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fbhavinology%2Fcode-snippets%2Fblob%2Fmain%2Falert-filled.html%23L1-L19&style=ir-black&showBorder=on&showCopy=on"></script>
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fromabulani%2FMuffinUI%2Fblob%2FEmbedBranch%2Fembed.html%23L156-L161&style=github-gist&showBorder=on&showCopy=on"></script>
           </div>
 
           <div class="content">
-            <h4 class="heading4">Dismissable Alerts</h4>
+            <h4 class="heading4">Link Buttons</h4>
             <p class="description">
-              Checkout below HTML and Javascript code for the Dismissable Alert.
+              The links can also be wrapped in buttons by giving class name as
+              <span class="keyword">btn-link</span> to a tag. There are 3
+              variations primary, secondary and default. For primary the class
+              <span class="keyword">btn-link-primary</span> can be given.
             </p>
           </div>
 
           <div class="display-component">
-            <div class="alert-container flex-column-center">
-              <div class="alert alert-success">
-                <i class="fas fa-check-circle"></i>
-                Close me!
-                <img
-                  class="btn-close"
-                  src="../../images/close-button.svg"
-                  alt="Close Button"
-                />
-              </div>
+            <div class="button-container flex-row-center">
+              <button class="btn">
+                <a href="#" class="btn-link btn-link-primary">Primary Link</a>
+              </button>
+              <button class="btn">
+                <a href="#" class="btn-link btn-link-secondary"
+                  >Secondary Link</a
+                >
+              </button>
+              <button class="btn">
+                <a href="#" class="btn-link btn-link-default">Default Link</a>
+              </button>
             </div>
           </div>
 
-          <p class="description">HTML</p>
-
           <div class="code-snippet">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fbhavinology%2Fcode-snippets%2Fblob%2Fmain%2Fdismissible-alert.html%23L1-L5&style=ir-black&showBorder=on&showCopy=on"></script>
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fromabulani%2FMuffinUI%2Fblob%2FEmbedBranch%2Fembed.html%23L165-L167&style=github-gist&showBorder=on&showCopy=on"></script>
           </div>
 
-          <p class="description">Javascript</p>
+          <div class="content">
+            <h4 class="heading4">Buttons With Icons</h4>
+            <p class="description">
+              The class <span class="keyword">btn-icon</span> needs to be added
+              along with other classes.
+            </p>
+          </div>
+
+          <div class="display-component">
+            <div class="button-container flex-row-center">
+              <button class="btn btn-icon btn-primary">
+                <i class="far fa-save"></i>Save
+              </button>
+              <button class="btn btn-icon btn-secondary">
+                <i class="fas fa-shopping-cart"></i>Add to Cart
+              </button>
+              <button class="btn btn-icon btn-default">
+                <i class="far fa-trash-alt"></i>Delete
+              </button>
+            </div>
+          </div>
 
           <div class="code-snippet">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fbhavinology%2Fcode-snippets%2Fblob%2Fmain%2Falert.js%23L1-L6&style=ir-black&showBorder=on&showCopy=on"></script>
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fromabulani%2FMuffinUI%2Fblob%2FEmbedBranch%2Fembed.html%23L171-L173&style=github-gist&showBorder=on&showCopy=on"></script>
+          </div>
+
+          <div class="content">
+            <h4 class="heading4">Floating Action Buttons</h4>
+            <p class="description">
+              These can be used by providing the class name as
+              <span class="keyword">btn-float</span>
+            </p>
+          </div>
+
+          <div class="display-component">
+            <div class="button-container flex-row-center">
+              <button class="btn-float btn-primary">
+                <i class="fas fa-arrow-up fa-lg"></i>
+              </button>
+              <button class="btn-float btn-secondary">
+                <i class="fas fa-share fa-lg"></i>
+              </button>
+              <button class="btn-float btn-default">
+                <i class="fas fa-plus fa-lg"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="code-snippet">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fromabulani%2FMuffinUI%2Fblob%2FEmbedBranch%2Fembed.html%23L177-L179&style=github-gist&showBorder=on&showCopy=on"></script>
           </div>
         </main>
       </div>
-
       <!-- SIDEBAR AND HERO SECTION ENDS -->
 
       <!-- FOOTER -->

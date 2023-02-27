@@ -10,7 +10,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="../../styles/documenation.css" />
-    <link rel="stylesheet" href="./alert.css" />
+    <link rel="stylesheet" href="./modal.css" />
     <!-- added for favicon -->
     <link
       rel="apple-touch-icon"
@@ -190,134 +190,108 @@
             </li>
           </ul>
         </aside>
-
         <!-- HERO SECTION -->
-
         <main class="content-container">
           <div class="content">
-            <h3 class="heading3">Alerts</h3>
+            <h3 class="heading3">Modal</h3>
             <p class="description">
-              An alert give a short, important message in a way that attracts
-              the user's attention without interrupting the user's task.
+              Modals are used to show interactive dialogs and notifications to
+              your website users.
             </p>
-            <h4 class="heading4">Default Alerts</h4>
+            <h4 class="heading4">Modal Types</h4>
             <p class="description">
-              Default Alerts are available in 4 variants success alert, info
-              alert, warning alert, error alert. To use this alert in your code,
-              just include classname <span class="keyword">alert</span>. And
-              also as per the requirement you can also add
-              <span class="keyword">alert-success</span>,
-              <span class="keyword">alert-info</span>,
-              <span class="keyword">alert-warning</span>,
-              <span class="keyword">alert-error</span> as class names. You can
-              copy the html code from below code snippet.
+              The default modal can be used by giving the class names
+              <span class="keyword">modal-default</span>,
+              <span class="keyword">modal-list</span> or
+              <span class="keyword">modal-list-scroll</span> to the div tag as
+              per the requirement, you can refer the code snippet and copy the
+              HTML code.
             </p>
           </div>
 
-          <div class="display-component">
-            <div class="alert-container flex-column-center">
-              <div class="alert alert-success">
-                <i class="fas fa-check-circle"></i>
-                This is the success alert. Check this out!
+          <div class="disable-container display-component flex-column-center">
+            <div class="button-container flex-column-center">
+              <button class="btn btn-primary" id="btn-modal-default">
+                Default
+              </button>
+              <button class="btn btn-primary" id="btn-modal-list">List</button>
+              <button class="btn btn-primary" id="btn-modal-list-scroll">
+                Scrollable
+              </button>
+            </div>
+            <div class="modal-default">
+              <h4 class="heading4">Modal Header</h4>
+              <p class="modal-body">Body text of Modal</p>
+              <div class="modal-actions">
+                <a href="">ACTION 1</a>
+                <a href="">ACTION 2</a>
               </div>
+            </div>
 
-              <div class="alert alert-info">
-                <i class="fas fa-info-circle"></i>
-                This is the info alert. Check this out!
+            <div class="modal-list">
+              <h4 class="heading4">Modal Header</h4>
+              <div class="modal-items-fixed">
+                <div class="modal-item">
+                  <i class="fas fa-user-circle"></i>
+                  <span>Item 1</span>
+                </div>
+
+                <div class="modal-item">
+                  <i class="fas fa-user-circle"></i>
+                  <span>Item 2</span>
+                </div>
+
+                <div class="modal-item">
+                  <i class="fas fa-user-circle"></i>
+                  <span>Item 3</span>
+                </div>
               </div>
-
-              <div class="alert alert-warning">
-                <i class="fas fa-exclamation-triangle"></i>
-                This is the warning alert. Check this out!
+              <div class="modal-actions">
+                <a href="">ACTION 1</a>
+                <a href="">ACTION 2</a>
               </div>
+            </div>
 
-              <div class="alert alert-error">
-                <i class="fas fa-exclamation-circle"></i>
-                This is the error alert. Check this out!
+            <div class="modal-list-scroll">
+              <h4 class="heading4">Modal Header</h4>
+              <div class="modal-items-scrollable">
+                <span class="modal-item">
+                  <input type="radio" />
+                  <label>Item 1</label>
+                </span>
+                <span class="modal-item">
+                  <input type="radio" />
+                  <span>Item 2</span>
+                </span>
+                <span class="modal-item">
+                  <input type="radio" />
+                  <span>Item 3</span>
+                </span>
+                <span class="modal-item">
+                  <input type="radio" />
+                  <span>Item 4</span>
+                </span>
+                <span class="modal-item">
+                  <input type="radio" />
+                  <span>Item 5</span>
+                </span>
+                <span class="modal-item">
+                  <input type="radio" />
+                  <span>Item 6</span>
+                </span>
+              </div>
+              <div class="modal-actions">
+                <a href="">ACTION 1</a>
+                <a href="">ACTION 2</a>
               </div>
             </div>
           </div>
 
           <div class="code-snippet">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fbhavinology%2Fcode-snippets%2Fblob%2Fmain%2Falert.html%23L1-L19&style=ir-black&showBorder=on&showCopy=on"></script>
-          </div>
-
-          <div class="content">
-            <h4 class="heading4">Filled Alerts</h4>
-            <p class="description">
-              For Filled Alerts, just include classname
-              <span class="keyword">alert</span>. And also as per the
-              requirement you can also add
-              <span class="keyword">alert-success-filled</span>,
-              <span class="keyword">alert-info-filled</span>,
-              <span class="keyword">alert-warning-filled</span>,
-              <span class="keyword">alert-error-filled</span> as class names.
-            </p>
-          </div>
-
-          <div class="display-component">
-            <div class="alert-container flex-column-center">
-              <div class="alert alert-success-filled">
-                <i class="fas fa-check-circle"></i>
-                This is the success alert. Check this out!
-              </div>
-
-              <div class="alert alert-info-filled">
-                <i class="fas fa-info-circle"></i>
-                This is the info alert. Check this out!
-              </div>
-
-              <div class="alert alert-warning-filled">
-                <i class="fas fa-exclamation-triangle"></i>
-                This is the warning alert. Check this out!
-              </div>
-
-              <div class="alert alert-error-filled">
-                <i class="fas fa-exclamation-circle"></i>
-                This is the error alert. Check this out!
-              </div>
-            </div>
-          </div>
-
-          <div class="code-snippet">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fbhavinology%2Fcode-snippets%2Fblob%2Fmain%2Falert-filled.html%23L1-L19&style=ir-black&showBorder=on&showCopy=on"></script>
-          </div>
-
-          <div class="content">
-            <h4 class="heading4">Dismissable Alerts</h4>
-            <p class="description">
-              Checkout below HTML and Javascript code for the Dismissable Alert.
-            </p>
-          </div>
-
-          <div class="display-component">
-            <div class="alert-container flex-column-center">
-              <div class="alert alert-success">
-                <i class="fas fa-check-circle"></i>
-                Close me!
-                <img
-                  class="btn-close"
-                  src="../../images/close-button.svg"
-                  alt="Close Button"
-                />
-              </div>
-            </div>
-          </div>
-
-          <p class="description">HTML</p>
-
-          <div class="code-snippet">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fbhavinology%2Fcode-snippets%2Fblob%2Fmain%2Fdismissible-alert.html%23L1-L5&style=ir-black&showBorder=on&showCopy=on"></script>
-          </div>
-
-          <p class="description">Javascript</p>
-
-          <div class="code-snippet">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fbhavinology%2Fcode-snippets%2Fblob%2Fmain%2Falert.js%23L1-L6&style=ir-black&showBorder=on&showCopy=on"></script>
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fromabulani%2FMuffinUI%2Fblob%2FEmbedBranch%2Fembed.html%23L509-584&style=github-gist&showBorder=on&showCopy=on"></script>
           </div>
         </main>
       </div>
-
       <!-- SIDEBAR AND HERO SECTION ENDS -->
 
       <!-- FOOTER -->
@@ -364,6 +338,6 @@
       </footer>
     </div>
   </body>
-  <script src="./alert.js"></script>
+  <script src="./modal.js"></script>
   <script src="../../Documentation/sidebar.js"></script>
 </html>

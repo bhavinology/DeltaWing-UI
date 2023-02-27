@@ -10,7 +10,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="../../styles/documenation.css" />
-    <link rel="stylesheet" href="./alert.css" />
+    <link rel="stylesheet" href="./lists.css" />
     <!-- added for favicon -->
     <link
       rel="apple-touch-icon"
@@ -190,130 +190,129 @@
             </li>
           </ul>
         </aside>
-
         <!-- HERO SECTION -->
-
         <main class="content-container">
           <div class="content">
-            <h3 class="heading3">Alerts</h3>
+            <h3 class="heading3">Lists</h3>
             <p class="description">
-              An alert give a short, important message in a way that attracts
-              the user's attention without interrupting the user's task.
+              Lists are a continuous group of text or images. They are composed
+              of items containing primary and supplemental actions, which are
+              represented by icons and text.
             </p>
-            <h4 class="heading4">Default Alerts</h4>
+            <h4 class="heading4">Unordered Lists</h4>
             <p class="description">
-              Default Alerts are available in 4 variants success alert, info
-              alert, warning alert, error alert. To use this alert in your code,
-              just include classname <span class="keyword">alert</span>. And
-              also as per the requirement you can also add
-              <span class="keyword">alert-success</span>,
-              <span class="keyword">alert-info</span>,
-              <span class="keyword">alert-warning</span>,
-              <span class="keyword">alert-error</span> as class names. You can
-              copy the html code from below code snippet.
+              The default style of unordered lists is filled circle. Other
+              styles of unordered lists can be used by giving the class name
+              <span class="keyword">ulist-style-square</span>,
+              <span class="keyword">ulist-style-circle</span> and
+              <span class="keyword">ulist-style-none</span> to the ul tag as per
+              the requirement.
             </p>
           </div>
 
           <div class="display-component">
-            <div class="alert-container flex-column-center">
-              <div class="alert alert-success">
-                <i class="fas fa-check-circle"></i>
-                This is the success alert. Check this out!
-              </div>
+            <div class="list-container flex-row-center">
+              <ul>
+                <li>Item1</li>
+                <li>Item2</li>
+                <li>Item3</li>
+              </ul>
 
-              <div class="alert alert-info">
-                <i class="fas fa-info-circle"></i>
-                This is the info alert. Check this out!
-              </div>
+              <ul class="ulist-style-square">
+                <li>Item1</li>
+                <li>Item2</li>
+                <li>Item3</li>
+              </ul>
 
-              <div class="alert alert-warning">
-                <i class="fas fa-exclamation-triangle"></i>
-                This is the warning alert. Check this out!
-              </div>
+              <ul class="ulist-style-circle">
+                <li>Item1</li>
+                <li>Item2</li>
+                <li>Item3</li>
+              </ul>
 
-              <div class="alert alert-error">
-                <i class="fas fa-exclamation-circle"></i>
-                This is the error alert. Check this out!
-              </div>
+              <ul class="ulist-style-none">
+                <li>Item1</li>
+                <li>Item2</li>
+                <li>Item3</li>
+              </ul>
             </div>
           </div>
 
           <div class="code-snippet">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fbhavinology%2Fcode-snippets%2Fblob%2Fmain%2Falert.html%23L1-L19&style=ir-black&showBorder=on&showCopy=on"></script>
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fromabulani%2FMuffinUI%2Fblob%2FEmbedBranch%2Fembed.html%23L387-409&style=github-gist&showBorder=on&showCopy=on"></script>
           </div>
 
           <div class="content">
-            <h4 class="heading4">Filled Alerts</h4>
+            <h4 class="heading4">Ordered Lists</h4>
             <p class="description">
-              For Filled Alerts, just include classname
-              <span class="keyword">alert</span>. And also as per the
-              requirement you can also add
-              <span class="keyword">alert-success-filled</span>,
-              <span class="keyword">alert-info-filled</span>,
-              <span class="keyword">alert-warning-filled</span>,
-              <span class="keyword">alert-error-filled</span> as class names.
+              The default style of ordered lists is decimal numbers. Other
+              styles of unordered lists can be used by giving the class name
+              <span class="keyword">olist-style-alphabets</span>,
+              <span class="keyword">olist-style-roman</span> to the ol tag.
             </p>
           </div>
 
           <div class="display-component">
-            <div class="alert-container flex-column-center">
-              <div class="alert alert-success-filled">
-                <i class="fas fa-check-circle"></i>
-                This is the success alert. Check this out!
-              </div>
+            <div class="list-container flex-row-center">
+              <ol>
+                <li>Item1</li>
+                <li>Item2</li>
+                <li>Item3</li>
+              </ol>
 
-              <div class="alert alert-info-filled">
-                <i class="fas fa-info-circle"></i>
-                This is the info alert. Check this out!
-              </div>
+              <ol class="olist-style-alphabets">
+                <li>Item1</li>
+                <li>Item2</li>
+                <li>Item3</li>
+              </ol>
 
-              <div class="alert alert-warning-filled">
-                <i class="fas fa-exclamation-triangle"></i>
-                This is the warning alert. Check this out!
-              </div>
-
-              <div class="alert alert-error-filled">
-                <i class="fas fa-exclamation-circle"></i>
-                This is the error alert. Check this out!
-              </div>
+              <ol class="olist-style-roman">
+                <li>Item1</li>
+                <li>Item2</li>
+                <li>Item3</li>
+              </ol>
             </div>
           </div>
 
           <div class="code-snippet">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fbhavinology%2Fcode-snippets%2Fblob%2Fmain%2Falert-filled.html%23L1-L19&style=ir-black&showBorder=on&showCopy=on"></script>
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fromabulani%2FMuffinUI%2Fblob%2FEmbedBranch%2Fembed.html%23L413-429&style=github-gist&showBorder=on&showCopy=on"></script>
           </div>
 
           <div class="content">
-            <h4 class="heading4">Dismissable Alerts</h4>
+            <h4 class="heading4">Stacked Lists</h4>
             <p class="description">
-              Checkout below HTML and Javascript code for the Dismissable Alert.
+              Stacked Lists can be used by giving class name as
+              <span class="keyword">stack-list-item</span> to li tag and
+              <span class="keyword">stack-list</span> to the ul tag. You can
+              copy the HTML from code snippet below.
             </p>
           </div>
 
           <div class="display-component">
-            <div class="alert-container flex-column-center">
-              <div class="alert alert-success">
-                <i class="fas fa-check-circle"></i>
-                Close me!
-                <img
-                  class="btn-close"
-                  src="../../images/close-button.svg"
-                  alt="Close Button"
-                />
-              </div>
+            <div class="list-container flex-row-center">
+              <ul class="ulist-style-none stack-list">
+                <li class="stack-list-item">
+                  <h5>20% Off</h5>
+                  <p>Order fast to avail the discount! 2 hours left!!</p>
+                </li>
+                <li class="stack-list-item">
+                  <h5>20% Off</h5>
+                  <p>Order fast to avail the discount! 2 hours left!!</p>
+                </li>
+                <li class="stack-list-item">
+                  <h5>20% Off</h5>
+                  <p>Order fast to avail the discount! 2 hours left!!</p>
+                </li>
+                <li class="stack-list-item">
+                  <h5>20% Off</h5>
+                  <p>Order fast to avail the discount! 2 hours left!!</p>
+                </li>
+              </ul>
             </div>
           </div>
 
-          <p class="description">HTML</p>
-
           <div class="code-snippet">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fbhavinology%2Fcode-snippets%2Fblob%2Fmain%2Fdismissible-alert.html%23L1-L5&style=ir-black&showBorder=on&showCopy=on"></script>
-          </div>
-
-          <p class="description">Javascript</p>
-
-          <div class="code-snippet">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fbhavinology%2Fcode-snippets%2Fblob%2Fmain%2Falert.js%23L1-L6&style=ir-black&showBorder=on&showCopy=on"></script>
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fromabulani%2FMuffinUI%2Fblob%2FEmbedBranch%2Fembed.html%23L433-466&style=github-gist&showBorder=on&showCopy=on"></script>
           </div>
         </main>
       </div>

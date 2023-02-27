@@ -1,0 +1,11 @@
+@import url("../../styles/globalVar.css");
+
+.default-rating > i {
+  color: var(--disabled-color);
+  padding: 0.5rem;
+}
+
+.default-rating > i:hover {
+  color: var(--star-rating);
+  padding: 0.5rem;
+}

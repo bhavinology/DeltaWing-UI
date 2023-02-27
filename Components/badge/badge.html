@@ -10,7 +10,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="../../styles/documenation.css" />
-    <link rel="stylesheet" href="./alert.css" />
+    <link rel="stylesheet" href="./badge.css" />
     <!-- added for favicon -->
     <link
       rel="apple-touch-icon"
@@ -192,128 +192,154 @@
         </aside>
 
         <!-- HERO SECTION -->
-
         <main class="content-container">
           <div class="content">
-            <h3 class="heading3">Alerts</h3>
+            <h3 class="heading3">Badges</h3>
             <p class="description">
-              An alert give a short, important message in a way that attracts
-              the user's attention without interrupting the user's task.
+              Badges can be combined with Avatars, they are useful for status of
+              user like busy, offline and away. They can also be used on icons
+              for notifications.
             </p>
-            <h4 class="heading4">Default Alerts</h4>
+            <h4 class="heading4">Badges for Image Avatars</h4>
             <p class="description">
-              Default Alerts are available in 4 variants success alert, info
-              alert, warning alert, error alert. To use this alert in your code,
-              just include classname <span class="keyword">alert</span>. And
-              also as per the requirement you can also add
-              <span class="keyword">alert-success</span>,
-              <span class="keyword">alert-info</span>,
-              <span class="keyword">alert-warning</span>,
-              <span class="keyword">alert-error</span> as class names. You can
-              copy the html code from below code snippet.
-            </p>
-          </div>
-
-          <div class="display-component">
-            <div class="alert-container flex-column-center">
-              <div class="alert alert-success">
-                <i class="fas fa-check-circle"></i>
-                This is the success alert. Check this out!
-              </div>
-
-              <div class="alert alert-info">
-                <i class="fas fa-info-circle"></i>
-                This is the info alert. Check this out!
-              </div>
-
-              <div class="alert alert-warning">
-                <i class="fas fa-exclamation-triangle"></i>
-                This is the warning alert. Check this out!
-              </div>
-
-              <div class="alert alert-error">
-                <i class="fas fa-exclamation-circle"></i>
-                This is the error alert. Check this out!
-              </div>
-            </div>
-          </div>
-
-          <div class="code-snippet">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fbhavinology%2Fcode-snippets%2Fblob%2Fmain%2Falert.html%23L1-L19&style=ir-black&showBorder=on&showCopy=on"></script>
-          </div>
-
-          <div class="content">
-            <h4 class="heading4">Filled Alerts</h4>
-            <p class="description">
-              For Filled Alerts, just include classname
-              <span class="keyword">alert</span>. And also as per the
-              requirement you can also add
-              <span class="keyword">alert-success-filled</span>,
-              <span class="keyword">alert-info-filled</span>,
-              <span class="keyword">alert-warning-filled</span>,
-              <span class="keyword">alert-error-filled</span> as class names.
+              The first variant of Badge is for Round Image Avatars.For Round
+              Avatars, class name
+              <span class="keyword">badge-round-avatar</span> needs to be added
+              in span tag. As per the avatar size selected, the badge size
+              differs, the sizes for badges are
+              <span class="keyword">badge-lg</span>,
+              <span class="keyword">badge-md</span>,
+              <span class="keyword">badge-sm</span>,
+              <span class="keyword">badge-xs</span>. Based on the status of the
+              user, the different choices are
+              <span class="keyword">badge-busy</span>,
+              <span class="keyword">badge-away</span> and
+              <span class="keyword">badge-online</span>.
             </p>
           </div>
 
           <div class="display-component">
-            <div class="alert-container flex-column-center">
-              <div class="alert alert-success-filled">
-                <i class="fas fa-check-circle"></i>
-                This is the success alert. Check this out!
-              </div>
-
-              <div class="alert alert-info-filled">
-                <i class="fas fa-info-circle"></i>
-                This is the info alert. Check this out!
-              </div>
-
-              <div class="alert alert-warning-filled">
-                <i class="fas fa-exclamation-triangle"></i>
-                This is the warning alert. Check this out!
-              </div>
-
-              <div class="alert alert-error-filled">
-                <i class="fas fa-exclamation-circle"></i>
-                This is the error alert. Check this out!
-              </div>
-            </div>
-          </div>
-
-          <div class="code-snippet">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fbhavinology%2Fcode-snippets%2Fblob%2Fmain%2Falert-filled.html%23L1-L19&style=ir-black&showBorder=on&showCopy=on"></script>
-          </div>
-
-          <div class="content">
-            <h4 class="heading4">Dismissable Alerts</h4>
-            <p class="description">
-              Checkout below HTML and Javascript code for the Dismissable Alert.
-            </p>
-          </div>
-
-          <div class="display-component">
-            <div class="alert-container flex-column-center">
-              <div class="alert alert-success">
-                <i class="fas fa-check-circle"></i>
-                Close me!
+            <div class="badge-container">
+              <div class="badge">
                 <img
-                  class="btn-close"
-                  src="../../images/close-button.svg"
-                  alt="Close Button"
+                  class="avatar avatar-lg"
+                  src="../../images/avatar-1.webp"
+                  alt="avatar"
                 />
+                <span class="badge-round-avatar badge-lg badge-busy"></span>
+              </div>
+              <div class="badge">
+                <img
+                  class="avatar avatar-md"
+                  src="../../images/avatar-1.webp"
+                  alt="avatar"
+                />
+                <span class="badge-round-avatar badge-md badge-away"></span>
+              </div>
+              <div class="badge">
+                <img
+                  class="avatar avatar-sm"
+                  src="../../images/avatar-1.webp"
+                  alt="avatar"
+                />
+                <span class="badge-round-avatar badge-sm badge-online"></span>
+              </div>
+              <div class="badge">
+                <img
+                  class="avatar avatar-xs"
+                  src="../../images/avatar-1.webp"
+                  alt="avatar"
+                />
+                <span class="badge-round-avatar badge-xs badge-busy"></span>
               </div>
             </div>
           </div>
 
-          <p class="description">HTML</p>
-
           <div class="code-snippet">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fbhavinology%2Fcode-snippets%2Fblob%2Fmain%2Fdismissible-alert.html%23L1-L5&style=ir-black&showBorder=on&showCopy=on"></script>
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fromabulani%2FMuffinUI%2Fblob%2FEmbedBranch%2Fembed.html%23L90-L105&style=github-gist&showBorder=on&showCopy=on"></script>
           </div>
 
-          <p class="description">Javascript</p>
+          <div class="content">
+            <p class="description">
+              The second variant is for square avatars, only difference is that,
+              you have to add class as
+              <span class="keyword">badge-square-avatar</span>
+            </p>
+          </div>
+
+          <div class="display-component">
+            <div class="badge-container">
+              <div class="badge">
+                <img
+                  class="avatar-square avatar-lg"
+                  src="../../images/avatar-1.webp"
+                  alt="avatar"
+                />
+                <span class="badge-square-avatar badge-lg badge-busy"></span>
+              </div>
+              <div class="badge">
+                <img
+                  class="avatar-square avatar-md"
+                  src="../../images/avatar-1.webp"
+                  alt="avatar"
+                />
+                <span class="badge-square-avatar badge-md badge-away"></span>
+              </div>
+              <div class="badge">
+                <img
+                  class="avatar-square avatar-sm"
+                  src="../../images/avatar-1.webp"
+                  alt="avatar"
+                />
+                <span class="badge-square-avatar badge-sm badge-online"></span>
+              </div>
+              <div class="badge">
+                <img
+                  class="avatar-square avatar-xs"
+                  src="../../images/avatar-1.webp"
+                  alt="avatar"
+                />
+                <span class="badge-square-avatar badge-xs badge-busy"></span>
+              </div>
+            </div>
+          </div>
 
           <div class="code-snippet">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fbhavinology%2Fcode-snippets%2Fblob%2Fmain%2Falert.js%23L1-L6&style=ir-black&showBorder=on&showCopy=on"></script>
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fromabulani%2FMuffinUI%2Fblob%2FEmbedBranch%2Fembed.html%23L109-L124&style=github-gist&showBorder=on&showCopy=on"></script>
+          </div>
+
+          <div class="content">
+            <h4 class="heading4">Badges for Icons</h4>
+            <p class="description">
+              For Icon Badges, the three classes are to be added in span tag
+              <span class="keyword">badge-icon</span>,
+              <span class="keyword">badge-number</span> and
+              <span class="keyword">badge-right</span>
+            </p>
+          </div>
+
+          <div class="display-component">
+            <div class="badge-container">
+              <div class="badge">
+                <i class="fas fa-shopping-cart fa-lg"></i>
+                <span class="badge-icon badge-number badge-right badge-lg"
+                  >9</span
+                >
+              </div>
+              <div class="badge">
+                <i class="fas fa-shopping-cart fa-lg"></i>
+                <span class="badge-icon badge-number badge-right">99</span>
+              </div>
+
+              <div class="badge">
+                <i class="fas fa-shopping-cart fa-lg"></i>
+                <span class="badge-icon badge-number badge-right">99+</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="code-snippet">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fromabulani%2FMuffinUI%2Fblob%2FEmbedBranch%2Fembed.html%23L128-L139&style=github-gist&showBorder=on&showCopy=on"></script>
           </div>
         </main>
       </div>

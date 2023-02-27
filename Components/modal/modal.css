@@ -1,0 +1,65 @@
+@import url("../../styles/globalVar.css");
+@import url("../button/button.css");
+
+.display-component,
+.disable-container {
+  height: 15rem;
+}
+
+.modal-default,
+.modal-list,
+.modal-list-scroll {
+  align-items: flex-start;
+  border-radius: 0.625rem;
+  display: none;
+  flex-direction: column;
+  height: 13rem;
+  justify-content: center;
+  padding: 0.625rem;
+  row-gap: 1rem;
+  width: 14rem;
+}
+
+.modal-default {
+  align-self: center;
+  height: 10rem;
+}
+
+.modal-actions {
+  align-self: flex-end;
+}
+
+.modal-actions > a {
+  color: var(--primary-color);
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.modal-body {
+  font-size: 0.875rem;
+  font-weight: lighter;
+}
+
+.modal-items-fixed,
+.modal-items-scrollable {
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+}
+
+.modal-items-scrollable {
+  overflow-y: scroll;
+}
+
+.modal-item {
+  padding: 6px;
+}
+
+.modal-item:hover {
+  background-color: var(--primary-bg-color);
+  border-radius: 0.625rem;
+}
+
+.modal-item > .fas {
+  color: var(--primary-color);
+}
