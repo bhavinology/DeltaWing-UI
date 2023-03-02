@@ -1,0 +1,65 @@
+@import url("../../styles/globalVar.css");
+.utility-container {
+  flex-wrap: wrap;
+}
+
+/* Text */
+.heading1 {
+  font-size: 2.5rem;
+}
+
+.heading2 {
+  font-size: 2rem;
+}
+
+.heading3 {
+  font-size: 1.5rem;
+}
+
+.heading4 {
+  font-size: 1.2rem;
+}
+
+.heading5 {
+  font-size: 1rem;
+}
+
+.heading6 {
+  font-size: 0.8rem;
+}
+
+.utility-container > .heading3,
+.utility-container > .heading4 {
+  margin: 0;
+  padding: 0;
+}
+
+.small-text {
+  font-size: 0.625rem;
+}
+
+.gray-text {
+  color: gray;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Padding */
+.padding-8 {
+  padding: 8px;
+}
+
+.padding-16 {
+  padding: 16px;
+}
+
+/* Margin */
+.margin-8 {
+  margin: 8px;
+}
+
+.margin-16 {
+  margin: 16px;
+}

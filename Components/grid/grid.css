@@ -1,0 +1,47 @@
+@import url("../../styles/globalVar.css");
+@import url("../utilities/utilities.css");
+@import url("../image/image.css");
+
+.grid {
+  display: grid;
+}
+
+.grid > div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.grid-50-50 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-30-70 {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.grid-3-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid > div > .heading4 {
+  margin-left: 0px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 480px) {
+  .grid-50-50 {
+    grid-template-columns: 1fr;
+  }
+  .grid-30-70 {
+    grid-template-columns: 1fr;
+  }
+  .grid-3-column {
+    grid-template-columns: 1fr;
+  }
+}

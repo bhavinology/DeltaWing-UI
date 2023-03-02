@@ -1,0 +1,56 @@
+@import url("../../styles/globalVar.css");
+@import url("../button/button.css");
+.toast-container {
+  flex-wrap: wrap;
+  margin: 1rem;
+  row-gap: 1rem;
+}
+
+.toast {
+  border-radius: 5px;
+  bottom: 1rem;
+  display: none;
+  left: 1rem;
+  padding: 0.625rem 2rem;
+  position: absolute;
+  width: max-content;
+  z-index: 1;
+}
+
+.toast-success {
+  background-color: var(--success-bg-color);
+  color: var(--success-color);
+}
+
+.toast-info {
+  background-color: var(--info-bg-color);
+  color: var(--info-color);
+}
+
+.toast-warning {
+  background-color: var(--warning-bg-color);
+  color: var(--warning-color);
+}
+
+.toast-error {
+  background-color: var(--error-bg-color);
+  color: var(--error-color);
+}
+
+.btn-close {
+  cursor: pointer;
+  color: var(--dark-color);
+  display: inline;
+  height: 0.625rem;
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+  position: absolute;
+  right: 0.625rem;
+  top: 4px;
+  width: 0.625rem;
+}
+
+.btn-close:hover {
+  background-color: var(--hover-color-grey);
+  border-radius: 50%;
+}

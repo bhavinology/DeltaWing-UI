@@ -10,7 +10,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="../../styles/documenation.css" />
-    <link rel="stylesheet" href="./alert.css" />
+    <link rel="stylesheet" href="./toast.css" />
     <!-- added for favicon -->
     <link
       rel="apple-touch-icon"
@@ -190,8 +190,99 @@
             </li>
           </ul>
         </aside>
+        <!-- HERO SECTION -->
+        <main class="content-container">
+          <div class="content">
+            <h3 class="heading3">Toast</h3>
+            <p class="description">
+              Toasts provide brief notifications. The component is also known as
+              a Snackbar.
+            </p>
+            <h4 class="heading4">Toast Types</h4>
+            <p class="description">
+              Toast Components are available in 4 variants success alert, info
+              alert, warning alert, error toast. To use this toast in your code,
+              just include classname <span class="keyword">toast</span>. And
+              also as per the requirement you can also add
+              <span class="keyword">toast-success</span>,
+              <span class="keyword">toast-info</span>,
+              <span class="keyword">toast-warning</span>,
+              <span class="keyword">toast-error</span> as class names. You can
+              copy the html code from below code snippet. Below is the Live
+              Demo. The toast will disappear after 3 seconds. Before that, you
+              can close it by using button close. Also, refer the Javascript
+              code for any customisation
+            </p>
+          </div>
 
-        <!-- SIDEBAR AND HERO SECTION ENDS -->
+          <div class="display-component">
+            <div class="toast-container flex-column-center">
+              <div class="button-container flex-column-center">
+                <button class="btn btn-primary" id="btn-toast-success">
+                  Success
+                </button>
+                <button class="btn btn-primary" id="btn-toast-info">
+                  Info
+                </button>
+                <button class="btn btn-primary" id="btn-toast-warning">
+                  Warning
+                </button>
+                <button class="btn btn-primary" id="btn-toast-error">
+                  Error
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="toast toast-success">
+            <img
+              class="btn-close"
+              src="../../images/close-button.svg"
+              alt="Close Button"
+            />
+            <i class="fas fa-check-circle"></i>
+            This is the success toast.
+          </div>
+          <div class="toast toast-info">
+            <i class="fas fa-info-circle"></i>
+            This is the info toast.
+            <img
+              class="btn-close"
+              src="../../images/close-button.svg"
+              alt="Close Button"
+            />
+          </div>
+          <div class="toast toast-warning">
+            <i class="fas fa-exclamation-triangle"></i>
+            This is the warning toast.
+            <img
+              class="btn-close"
+              src="../../images/close-button.svg"
+              alt="Close Button"
+            />
+          </div>
+          <div class="toast toast-error">
+            <i class="fas fa-exclamation-circle"></i>
+            This is the error toast.
+            <img
+              class="btn-close"
+              src="../../images/close-button.svg"
+              alt="Close Button"
+            />
+          </div>
+
+          <p class="description">HTML</p>
+          <div class="code-snippet">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fromabulani%2FMuffinUI%2Fblob%2FEmbedBranch%2Fembed.html%23L659-678&style=github-gist&showBorder=on&showCopy=on"></script>
+          </div>
+          <p class="description">Javascript</p>
+          <div class="code-snippet">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fromabulani%2FMuffinUI%2Fblob%2FEmbedBranch%2Fembed.js%23L8-29&style=github-gist&showBorder=on&showCopy=on"></script>
+          </div>
+        </main>
+      </div>
+
+      <!-- SIDEBAR AND HERO SECTION ENDS -->
 
       <!-- FOOTER -->
       <footer class="footer-container flex-column-center">
@@ -237,6 +328,6 @@
       </footer>
     </div>
   </body>
-  <script src="./alert.js"></script>
+  <script src="./toast.js"></script>
   <script src="../../Documentation/sidebar.js"></script>
 </html>
